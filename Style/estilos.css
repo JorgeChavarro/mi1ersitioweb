@@ -1,0 +1,53 @@
+/* Estilos CSS generales */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center; /* Centra todo el texto */
+    margin: 0;
+    padding: 0;
+    background-color: #333; /* Color de fondo gris oscuro para la página */
+    background-image: url('ruta/a/tu/imagen-de-fondo.jpg'); /* Imagen de fondo */
+    background-size: cover; /* Asegura que la imagen cubra todo el fondo */
+}
+
+header {
+    background-color: white; /* Fondo blanco para el título */
+    padding: 20px;
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra para el título */
+}
+
+.contenedor {
+    margin: 20px 0;
+}
+
+.item {
+    display: inline-block; /* Permitir que las imágenes y videos se alineen en línea */
+    margin: 10px; /* Espaciado entre los elementos */
+}
+
+.imagen-titulo {
+    display: block; /* Hace que la imagen sea un bloque para centrarla */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+    width: 80%; /* Ajustar el ancho según sea necesario */
+    max-width: 600px; /* Ancho máximo para la imagen */
+}
+
+.video {
+    display: block; /* Hace que el video sea un bloque para centrarlo */
+    margin: 10px auto; /* Centra el video horizontalmente */
+    width: 80%; /* Ajustar el ancho según sea necesario */
+    max-width: 600px; /* Ancho máximo para el video */
+}
+
+p {
+    background-color: white; /* Fondo blanco para el párrafo */
+    padding: 15px; /* Espaciado interno del párrafo */
+    border-radius: 8px; /* Bordes redondeados para el párrafo */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra para el párrafo */
+    max-width: 800px; /* Ancho máximo para el párrafo */
+    margin: 10px auto; /* Centra el párrafo horizontalmente */
+}
+
+h1, h2 {
+    margin: 20px 0; /* Espaciado alrededor de los encabezados */
+}
